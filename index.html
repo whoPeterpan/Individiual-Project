@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DIY Home Decor Ideas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>DIY Home Decor Ideas</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!--Home page-->
+    <section id="home" class="hero" role="banner" aria-label="Home hero">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <h2>Create beauty with your own hands</h2>
+          <p class="tagline">Cozy, budget-friendly decor ideas to personalize every room.</p>
+          <a class="btn btn-primary" href="#projects">Explore Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects" class="section container" aria-labelledby="projects-title">
+      <h2 id="projects-title" class="section-title">DIY Decor Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card" aria-labelledby="proj1-title">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1000&q=80" alt="Handmade macrame wall hanging" />
+            <figcaption class="sr-only">Macrame wall hanging</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 id="proj1-title">Macramé Wall Hanging</h3>
+            <p>Soft cotton cords create a warm boho focal point perfect for living rooms or bedrooms.</p>
+            <a class="btn btn-outline" href="#contact" aria-label="Learn more about Macramé Wall Hanging">Learn More</a>
+          </div>
+        </article>
+
+        <article class="project-card" aria-labelledby="proj2-title">
+          <figure>
+            <img src="https://i.etsystatic.com/6860722/r/il/7d54db/1088229293/il_570xN.1088229293_h38g.jpg" alt="Decorative painted mason jars" />
+            <figcaption class="sr-only">Painted mason jars</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 id="proj2-title">Painted Mason Jar Vases</h3>
+            <p>Simple painted jars add texture and color — great for centerpieces or shelving displays.</p>
+            <a class="btn btn-outline" href="#contact" aria-label="Learn more about Painted Mason Jar Vases">Learn More</a>
+          </div>
+        </article>
+
+        <article class="project-card" aria-labelledby="proj3-title">
+          <figure>
+            <img src="https://www.woodensure.com/assets/images/products/1696683003CLlM0gl4.png" alt="Handmade wooden shelf with plants" />
+            <figcaption class="sr-only">Wooden floating shelf</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 id="proj3-title">Floating Wooden Shelf</h3>
+            <p>A simple floating shelf built from reclaimed wood brings warmth and function to any wall.</p>
+            <a class="btn btn-outline" href="#contact" aria-label="Learn more about Floating Wooden Shelf">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--Ideas-->
+    <section id="tips" class="section warm-bg" aria-labelledby="tips-title">
+      <div class="container">
+        <h2 id="tips-title" class="section-title">Quick Home Decor Tips</h2>
+
+        <div class="tips-grid">
+          <div class="tip">
+            <h4>Layer Textures</h4>
+            <p>Mix soft fabrics, woven baskets, and wooden accents to make spaces feel rich and cozy.</p>
+          </div>
+
+          <div class="tip">
+            <h4>Warm Lighting</h4>
+            <p>Use warm bulbs and layered lighting (lamps + candles) to create inviting rooms.</p>
+          </div>
+
+          <div class="tip">
+            <h4>Plants for Life</h4>
+            <p>Incorporate a few easy-care plants to add freshness and soften corners.</p>
+          </div>
+
+          <div class="tip">
+            <h4>Personal Touches</h4>
+            <p>Showcase handmade items or meaningful finds to tell your home's story.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Social info-->
+    <section id="contact" class="section container" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Contact</h2>
+      <p class="contact-intro">Want a step-by-step guide for any project? Send a message and we'll get back to you.</p>
+
+      <form class="contact-form" action="#" method="post" aria-label="Contact form">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Which project are you interested in?" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="social">
+        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+        <a href="#" aria-label="Pinterest" class="social-link">Pinterest</a>
+        <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+      </div>
+
+      <div class="copyright">
+        &copy; <span id="year"></span> DIY Home Decor Ideas. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
